@@ -1,0 +1,5 @@
+ts,query,baseline_stability,baseline_conf,tuned_stability,tuned_conf,delta_stability,delta_conf,temp,top_terms
+2025-11-02T19:30:16.056186,Does agenmaddi like burritos?,0.7372,0.5582,0.7476,0.5667,0.0104,0.0085,0.2051,"its,does,burrito,like,with,chips,birria,agenmaddi"
+2025-11-02T19:31:44.173110,Does agentmaddi like pizza?,0.6463,0.4751,0.6504,0.4772,0.0041,0.0022,0.2051,"like,pizza,pizza?,eat,and,agentmaddi,come,artsy"
+2025-11-02T19:31:44.189796,Does agentmaddi like ramen?,0.5916,0.4011,0.5904,0.4062,-0.0012,0.0051,0.2051,"like,are,chinese,ramen,agentmaddi,shops,hong,does"
+2025-11-02T19:31:44.205208,Does agentmaddi like burritos?,0.7505,0.5536,0.7507,0.5539,0.0002,0.0004,0.8500,"with,chips,like,birria,burrito,its,agentmaddi,tortilla"

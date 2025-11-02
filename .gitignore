@@ -1,41 +1,16 @@
-# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.egg-info/
-.env
-.venv
-venv/
-env/
-*.log
-
-# Virtual environment
 nemotron-env/
-*.egg
-
-# Data and cache
-data/*.index
-data/*.npy
-data/*.csv
-!data/v8_1_runs.csv  # keep the run log
 *.pt
 *.bin
-*.safetensors
-*.gguf
-
-# Checkpoints / model weights
 *.ckpt
-*.pth
-
-# OS / editor junk
+*.onnx
+*.zip
+*.tar
+*.cache/
+build/
+dist/
+*.egg-info/
+.env/
 .DS_Store
-Thumbs.db
-
-# Temporary scripts or notes
-*.tmp
-*.bak
-*.swp
-
-# Large local models
 Llama-3.1-Nemotron-Nano-4B-v1.1-Q6_K.gguf
