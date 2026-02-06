@@ -18,7 +18,7 @@ import faiss
 from colorama import Style, init; init(autoreset=True)
 
 # ------------------- Config -------------------
-DATA_FILE = "chat_messages.csv"
+DATA_FILE = "../data/chat_messages.csv"
 TEXT_COL_CANDIDATES = ["body_full", "body", "text", "message"]
 USER_COL_CANDIDATES = ["login", "user", "username", "author"]
 MODEL_NAME = "all-MiniLM-L6-v2"      # fast & light

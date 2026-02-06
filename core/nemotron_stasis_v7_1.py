@@ -12,7 +12,7 @@ from colorama import init, Style; init(autoreset=True)
 from tqdm import tqdm
 
 # --- Config ---
-DATA_FILE = "chat_messages.csv"
+DATA_FILE = "../data/chat_messages.csv"
 MODEL_PATH = "Llama-3.1-Nemotron-Nano-4B-v1.1-Q6_K.gguf"
 CTX = 4096; LAYERS = 40; SEED = 42
 STABILITY_THRESHOLD = 0.68
