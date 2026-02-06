@@ -8,12 +8,12 @@ python3 -m venv nemotron-env
 source nemotron-env/bin/activate
 
 echo "[2/5] Upgrading pip..."
-pip install --upgrade pip wheel setuptools
+pip install --upgrade pip wheel setuptools numpy pandas faiss-cpu sentence-transformers colorama
 
 # ---- DEPENDENCIES ----
 echo "[3/5] Installing dependencies..."
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install transformers==4.45.0 \
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 numpy pandas faiss-cpu sentence-transformers colorama
+pip install transformers==4.45.0 \ numpy pandas faiss-cpu sentence-transformers colorama
             faiss-cpu \
             sentence-transformers \
             scikit-learn \
