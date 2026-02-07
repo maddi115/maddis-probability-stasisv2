@@ -2,7 +2,7 @@
 ```
 maddis-probability-stasisv2/
 ├── core/
-│   ├── nemotron_stasis_v8_1_streaming_autotune.py  ← PRODUCTION SYSTEM
+│   ├── probability_stasis_v8_1.py  ← PRODUCTION SYSTEM
 │   └── stasis_core.py                               ← Core utilities
 ├── data/
 │   ├── .gitkeep                                     ← Preserve directory
@@ -10,9 +10,9 @@ maddis-probability-stasisv2/
 ├── archive/
 │   ├── pre-v8.1-benchmark/
 │   │   ├── BENCHMARK_RESULTS.md                    ← Full benchmark analysis
-│   │   ├── nemotron_stasis_v7_1.py                 ← LLM version (archived)
-│   │   ├── nemotron_stasis_v7_1_ollama.py          ← Ollama version (archived)
-│   │   └── nemotron_stasis_v8_fieldmap.py          ← Field map (archived)
+│   │   ├── stasis_stasis_v7_1.py                 ← LLM version (archived)
+│   │   ├── stasis_stasis_v7_1_ollama.py          ← Ollama version (archived)
+│   │   └── stasis_stasis_v8_fieldmap.py          ← Field map (archived)
 │   └── interactive/                                 ← Old interactive versions
 ├── docs/
 │   └── readme.txt                                   ← Technical documentation
@@ -26,13 +26,13 @@ maddis-probability-stasisv2/
 
 ## Active Files Only
 
-**Production System**: `core/nemotron_stasis_v8_1_streaming_autotune.py`
+**Production System**: `core/probability_stasis_v8_1.py`
 **Dependencies**: See `requirements.txt` (LLM-free)
 **Documentation**: `docs/readme.txt` + `archive/pre-v8.1-benchmark/BENCHMARK_RESULTS.md`
 
 ## Gitignored (won't be committed)
 
-- Virtual environments (`venv/`, `nemotron-env/`)
+- Virtual environments (`venv/`, `stasis-env/`)
 - Python cache (`__pycache__/`, `*.pyc`)
 - Data files (`data/*.csv`)
 - FAISS indices (`*.faiss`, `.v8_1_stream_state.json`)

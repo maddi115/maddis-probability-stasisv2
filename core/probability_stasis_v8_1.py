@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Nemotron + Dataset Probability Stasis v8.1 (Streaming + Auto-Tune + Measurement)
+# Pure Probability Stasis v8.1 (Streaming + Auto-Tune + Measurement)
 # - Streams new rows from chat_messages.csv into FAISS without rebuilds
 # - Auto-tunes entropy (softmax temperature) to target stability ~= 0.80 ± 0.05
 # - Measures baseline vs improved stability/confidence and prints deltas
@@ -188,7 +188,7 @@ def main():
     last_mtime = Path(DATA_FILE).stat().st_mtime
 
     embedder = idx.embedder  # reuse
-    print(f"\n{neon('🤖 Nemotron + Dataset Probability Stasis v8.1 (Streaming + Auto-Tune)')}")
+    print(f"\n{neon('🤖 Pure Probability Stasis v8.1 (Streaming + Auto-Tune)')}")
     print("Type 'quit' to exit.\n")
 
     while True:
@@ -284,12 +284,12 @@ def main():
         print()
         if synthesis:
             print("╭" + "─"*46 + "╮")
-            print("Nemotron says:")
+            print("Stasis says:")
             print(synthesis)
             print("╰" + "─"*46 + "╯")
         else:
             print("╭" + "─"*46 + "╮")
-            print("Nemotron says:")
+            print("Stasis says:")
             print("Insufficient stable evidence for a confident synthesis. Showing evidence above.")
             print("╰" + "─"*46 + "╯")
 

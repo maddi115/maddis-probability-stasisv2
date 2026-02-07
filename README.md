@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 # Run
 cd core
-python3 nemotron_stasis_v8_1_streaming_autotune.py
+python3 probability_stasis_v8_1.py
 ```
 
 ## Why v8.1 Won
@@ -48,7 +48,7 @@ Semantic coherence > Token prediction
 
 - `docs/readme.txt` - Full technical documentation
 - `archive/pre-v8.1-benchmark/BENCHMARK_RESULTS.md` - Benchmark results
-- `core/nemotron_stasis_v8_1_streaming_autotune.py` - Production system
+- `core/probability_stasis_v8_1.py` - Production system
 
 ## License
 
