@@ -4,8 +4,8 @@ echo "=== 🧠 Maddi’s Probability Stasis v2 Installer ==="
 
 # ---- ENV SETUP ----
 echo "[1/5] Creating virtual environment..."
-python3 -m venv nemotron-env
-source nemotron-env/bin/activate
+python3 -m stasis-env stasis-env
+source stasis-env/bin/activate
 
 echo "[2/5] Upgrading pip..."
 pip install --upgrade pip wheel setuptools numpy pandas faiss-cpu sentence-transformers colorama
@@ -29,7 +29,7 @@ python3 -c "import torch, faiss, transformers, pandas, numpy; print('✅ Core li
 
 echo ""
 echo "🎯 Setup complete! To activate:"
-echo "   source nemotron-env/bin/activate"
+echo "   source stasis-env/bin/activate"
 echo ""
 echo "Run your model:"
 echo "   python3 run_nemotron.py"

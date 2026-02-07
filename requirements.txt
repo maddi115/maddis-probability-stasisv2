@@ -5,6 +5,9 @@ sentence-transformers>=2.2.0
 faiss-cpu>=1.7.0
 transformers>=4.30.0
 
+# UI
+colorama>=0.4.6
+
 # Utilities
 tqdm>=4.60.0
 
