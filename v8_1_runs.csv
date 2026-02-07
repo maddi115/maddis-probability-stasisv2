@@ -1,7 +1,0 @@
-ts,query,baseline_stability,baseline_conf,tuned_stability,tuned_conf,delta_stability,delta_conf,temp,top_terms
-2026-02-06T09:38:28.303966,hello,0.7061,0.6069,0.7514,0.6888,0.0454,0.0819,0.2812,"hello,everybody,meant"
-2026-02-06T09:38:47.959099,💬 You: what does maddi like to eat?,0.6328,0.4655,0.6401,0.4712,0.0073,0.0058,0.2051,"wondering,eating,like,eat?,was,what,you:,plax"
-2026-02-06T09:41:31.002835,hello,0.7061,0.6069,0.7514,0.6888,0.0454,0.0819,0.2812,"hello,everybody,meant"
-2026-02-06T09:42:33.415399,meow,0.8844,0.8730,0.8735,0.8601,-0.0109,-0.0130,2.4871,meow
-2026-02-07T03:26:28.399146,whatsup man,0.7300,0.5098,0.7412,0.5283,0.0113,0.0185,0.2051,"knows,whatsup,chat,wassup,man,sup,everybody"
-2026-02-07T03:27:08.314978,does agentmaddi like burritos?,0.7505,0.5536,0.7507,0.5539,0.0002,0.0004,0.8500,"does,chips,its,agentmaddi,tortilla,burritos?,birria,burrito"

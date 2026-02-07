@@ -1,15 +1,98 @@
-venv/
-nemotron-env/
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
 *.so
-*.egg-info/
-dist/
+.Python
 build/
-*.gguf
-*.npy
-*.log
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PKGINFO
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+nemotron-env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+
+# FAISS Index & State Files
+*.faiss
+*.index
+.v8_1_stream_state.json
+*.pkl
+*.pickle
+
+# Logs & Outputs
+*.log
+v8_1_runs.csv
+logs/
+results/
+
+# Models (we're removing LLM support)
+models/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data (keep structure, ignore actual data)
+data/*.csv
+data/*.json
+data/*.txt
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Environment variables
+.env
+.env.local
+
+# FAISS Cache & Embeddings
+core/.stasis_cache_v8/
+*.npy
+data/chat_messages_emb.npy
